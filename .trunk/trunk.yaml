@@ -9,7 +9,7 @@ plugins:
 lint:
   enabled:
     - prettier@3.5.1
-    - trufflehog@3.88.10
+    - trufflehog@3.88.11
     - yamllint@1.35.1
     - bandit@1.8.3
     - checkov@3.2.372
@@ -28,7 +28,7 @@ lint:
     - shellcheck@0.10.0
     - black@25.1.0
     - git-diff-check
-    - gitleaks@8.23.3
+    - gitleaks@8.24.0
     - clang-format@16.0.3
   ignore:
     - linters: [ALL]
